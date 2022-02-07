@@ -3,18 +3,18 @@ entries:
   auth:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-12-28T15:29:27.8883544+08:00"
+    created: "2022-02-08T00:31:00.7340292+08:00"
     description: A Helm chart for Kubernetes
     digest: d4218bbee11caaf156f2219000664a28581c6dc4bba1f1438a244d69ad093d08
     name: auth
     type: application
     urls:
-    - https://odysseusc.github.io/helm-charts/auth-0.1.0.tgz
+    - https://OdysseusC.github.io/helm-charts/auth-0.1.0.tgz
     version: 0.1.0
   core:
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2021-12-28T15:29:27.8973586+08:00"
+    created: "2022-02-08T00:31:00.7575566+08:00"
     dependencies:
     - name: etcd
       repository: ""
@@ -25,44 +25,63 @@ entries:
     name: core
     type: application
     urls:
-    - https://odysseusc.github.io/helm-charts/core-0.2.0.tgz
+    - https://OdysseusC.github.io/helm-charts/core-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-12-28T15:29:27.8903231+08:00"
+    created: "2022-02-08T00:31:00.7388784+08:00"
     description: A Helm chart for Kubernetes
     digest: 7d1b2d4e8d0f8511a6573386391cefc82fe6833bec0ef81f1f2c0066fb6ba3bf
     name: core
     type: application
     urls:
-    - https://odysseusc.github.io/helm-charts/core-0.1.0.tgz
+    - https://OdysseusC.github.io/helm-charts/core-0.1.0.tgz
     version: 0.1.0
   core-broker:
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2021-12-28T15:29:27.9003294+08:00"
+    created: "2022-02-08T00:31:00.7653906+08:00"
     description: A Helm chart for Kubernetes
     digest: f090ed6c7265b400f9215ed2a13ca5e8ec5d0c9aa86e5c1faa5de73138b157eb
     name: core-broker
     type: application
     urls:
-    - https://odysseusc.github.io/helm-charts/core-broker-0.3.0.tgz
+    - https://OdysseusC.github.io/helm-charts/core-broker-0.3.0.tgz
     version: 0.3.0
   hello-tkeel:
+  - annotations:
+      tkeel.io/deployment-name: hello-tkeel
+      tkeel.io/enable: "true"
+      tkeel.io/plugin-port: "8080"
+      tkeel.io/tag: User
+      tkeel.io/version: v0.4.0
+    apiVersion: v2
+    appVersion: 0.3.0
+    created: "2022-02-08T00:31:00.7717705+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 03943c8e37b87947423ddf81e08165098672a304ffa56fb17e2f0465ca4358c8
+    maintainers:
+    - email: caoyue@yunify.com
+      name: caoyue
+    name: hello-tkeel
+    type: application
+    urls:
+    - https://OdysseusC.github.io/helm-charts/hello-tkeel-0.4.0.tgz
+    version: 0.4.0
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2021-12-28T15:29:27.9033188+08:00"
+    created: "2022-02-08T00:31:00.7712141+08:00"
     description: A Helm chart for Kubernetes
     digest: ee7c854ae0803f2f57aeeb3a9dd79f305b39ab9480e5ddda5cc9b1e94274f922
     name: hello-tkeel
     type: application
     urls:
-    - https://odysseusc.github.io/helm-charts/hello-tkeel-0.3.0.tgz
+    - https://OdysseusC.github.io/helm-charts/hello-tkeel-0.3.0.tgz
     version: 0.3.0
   iothub:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-12-28T15:29:27.9053181+08:00"
+    created: "2022-02-08T00:31:00.7894591+08:00"
     dependencies:
     - name: emqx
       repository: ""
@@ -71,11 +90,11 @@ entries:
     name: iothub
     type: application
     urls:
-    - https://odysseusc.github.io/helm-charts/iothub-0.2.0.tgz
+    - https://OdysseusC.github.io/helm-charts/iothub-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-12-28T15:29:27.9043175+08:00"
+    created: "2022-02-08T00:31:00.7813845+08:00"
     dependencies:
     - name: emqx
       repository: ""
@@ -84,107 +103,107 @@ entries:
     name: iothub
     type: application
     urls:
-    - https://odysseusc.github.io/helm-charts/iothub-0.1.0.tgz
+    - https://OdysseusC.github.io/helm-charts/iothub-0.1.0.tgz
     version: 0.1.0
   keel:
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2021-12-28T15:29:27.9073531+08:00"
+    created: "2022-02-08T00:31:00.8094857+08:00"
     description: A Helm chart for Kubernetes
     digest: 4de7a88f2ea87e412e324a8c5f6fcbd8d4b50f672c8209838ececcefedcc89a7
     name: keel
     type: application
     urls:
-    - https://odysseusc.github.io/helm-charts/keel-0.3.0.tgz
+    - https://OdysseusC.github.io/helm-charts/keel-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2021-12-28T15:29:27.9063181+08:00"
+    created: "2022-02-08T00:31:00.8032906+08:00"
     description: A Helm chart for Kubernetes
     digest: 6775a4ed830b73ac4fbc3dc569889831d98662f2413ed0d40385d8abde412ad6
     name: keel
     type: application
     urls:
-    - https://odysseusc.github.io/helm-charts/keel-0.2.0.tgz
+    - https://OdysseusC.github.io/helm-charts/keel-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-12-28T15:29:27.9063181+08:00"
+    created: "2022-02-08T00:31:00.7970319+08:00"
     description: A Helm chart for Kubernetes
     digest: f3a438e969a277329881cab93e4b98bdcd05786d42333648e73917f8c338ecd7
     name: keel
     type: application
     urls:
-    - https://odysseusc.github.io/helm-charts/keel-0.1.0.tgz
+    - https://OdysseusC.github.io/helm-charts/keel-0.1.0.tgz
     version: 0.1.0
   keel-echo:
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2021-12-28T15:29:27.9093517+08:00"
+    created: "2022-02-08T00:31:00.8217393+08:00"
     description: A Helm chart for Kubernetes
     digest: 329b03d816279bb48f59aa05091a1aaf9889feb1f834248a975e190b2bc901ca
     name: keel-echo
     type: application
     urls:
-    - https://odysseusc.github.io/helm-charts/keel-echo-0.3.0.tgz
+    - https://OdysseusC.github.io/helm-charts/keel-echo-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2021-12-28T15:29:27.9083193+08:00"
+    created: "2022-02-08T00:31:00.8151438+08:00"
     description: A Helm chart for Kubernetes
     digest: a74d779ea1d1ed23f4f1792d4131ccbb7cac7e98768fe23a82201408c82a3685
     name: keel-echo
     type: application
     urls:
-    - https://odysseusc.github.io/helm-charts/keel-echo-0.2.0.tgz
+    - https://OdysseusC.github.io/helm-charts/keel-echo-0.2.0.tgz
     version: 0.2.0
   plugins:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-12-28T15:29:27.9093517+08:00"
+    created: "2022-02-08T00:31:00.8274202+08:00"
     description: A Helm chart for Kubernetes
     digest: dacf09efa342e7e0e823ed85fd7e34fddcdaf41cd47e624b40869852d1986ad3
     name: plugins
     type: application
     urls:
-    - https://odysseusc.github.io/helm-charts/plugins-0.1.0.tgz
+    - https://OdysseusC.github.io/helm-charts/plugins-0.1.0.tgz
     version: 0.1.0
   rudder:
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2021-12-28T15:29:27.9113522+08:00"
+    created: "2022-02-08T00:31:00.8380992+08:00"
     description: A Helm chart for Kubernetes
     digest: 88418921d7a3f823e767013fb3787a20e4823be504b377b965eec64d54db3060
     name: rudder
     type: application
     urls:
-    - https://odysseusc.github.io/helm-charts/rudder-0.3.0.tgz
+    - https://OdysseusC.github.io/helm-charts/rudder-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2021-12-28T15:29:27.9103554+08:00"
+    created: "2022-02-08T00:31:00.8334924+08:00"
     description: A Helm chart for Kubernetes
     digest: 1c87953f984bcaa203d2def4c49446da78929aff92b487bbb7a48902b41d39ab
     name: rudder
     type: application
     urls:
-    - https://odysseusc.github.io/helm-charts/rudder-0.2.0.tgz
+    - https://OdysseusC.github.io/helm-charts/rudder-0.2.0.tgz
     version: 0.2.0
   tkeel-device:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-12-28T15:29:27.9119515+08:00"
+    created: "2022-02-08T00:31:00.8436699+08:00"
     description: A Helm chart for Kubernetes
     digest: fcbadd2292f383d5286449ccf31cd7cf783588e3eafaaffb0d1fcfbdc3ca1f27
     name: tkeel-device
     type: application
     urls:
-    - https://odysseusc.github.io/helm-charts/tkeel-device-0.2.0.tgz
+    - https://OdysseusC.github.io/helm-charts/tkeel-device-0.2.0.tgz
     version: 0.2.0
   tkeel-middleware:
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2021-12-28T15:29:27.9768765+08:00"
+    created: "2022-02-08T00:31:00.9353957+08:00"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -197,11 +216,11 @@ entries:
     name: tkeel-middleware
     type: application
     urls:
-    - https://odysseusc.github.io/helm-charts/tkeel-middleware-0.3.0.tgz
+    - https://OdysseusC.github.io/helm-charts/tkeel-middleware-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2021-12-28T15:29:27.9684655+08:00"
+    created: "2022-02-08T00:31:00.9103076+08:00"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -214,11 +233,11 @@ entries:
     name: tkeel-middleware
     type: application
     urls:
-    - https://odysseusc.github.io/helm-charts/tkeel-middleware-0.2.0.tgz
+    - https://OdysseusC.github.io/helm-charts/tkeel-middleware-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-12-28T15:29:27.957033+08:00"
+    created: "2022-02-08T00:31:00.8892878+08:00"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -228,37 +247,37 @@ entries:
     name: tkeel-middleware
     type: application
     urls:
-    - https://odysseusc.github.io/helm-charts/tkeel-middleware-0.1.0.tgz
+    - https://OdysseusC.github.io/helm-charts/tkeel-middleware-0.1.0.tgz
     version: 0.1.0
   tkeel-plugin-components:
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2021-12-28T15:29:27.9798477+08:00"
+    created: "2022-02-08T00:31:00.9540517+08:00"
     description: A Helm chart for Kubernetes
     digest: 2d8d4e91eb3bd9616fa0bbd773928fe653d1e10ad6a887f237922a421c30a3aa
     name: tkeel-plugin-components
     type: application
     urls:
-    - https://odysseusc.github.io/helm-charts/tkeel-plugin-components-0.3.0.tgz
+    - https://OdysseusC.github.io/helm-charts/tkeel-plugin-components-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2021-12-28T15:29:27.9778328+08:00"
+    created: "2022-02-08T00:31:00.9479317+08:00"
     description: A Helm chart for Kubernetes
     digest: 9ead592d8e808122bd3bf821df525a65a09fff571daec67eeb1ddd6b0a880167
     name: tkeel-plugin-components
     type: application
     urls:
-    - https://odysseusc.github.io/helm-charts/tkeel-plugin-components-0.2.0.tgz
+    - https://OdysseusC.github.io/helm-charts/tkeel-plugin-components-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-12-28T15:29:27.9778328+08:00"
+    created: "2022-02-08T00:31:00.9426594+08:00"
     description: A Helm chart for Kubernetes
     digest: bd51850d88b63e9aeef0e90ec57373aab4da1405acd14728abbf54dd797af8a0
     name: tkeel-plugin-components
     type: application
     urls:
-    - https://odysseusc.github.io/helm-charts/tkeel-plugin-components-0.1.0.tgz
+    - https://OdysseusC.github.io/helm-charts/tkeel-plugin-components-0.1.0.tgz
     version: 0.1.0
-generated: "2021-12-28T15:29:27.8873621+08:00"
+generated: "2022-02-08T00:31:00.7235031+08:00"
